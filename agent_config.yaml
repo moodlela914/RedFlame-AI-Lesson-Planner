@@ -1,0 +1,25 @@
+name: "紅焰教學 - 數位與AI融入備課助理"
+description: "協助教師依據特定的學科主題，自動生成符合《數位與AI教學指引》標準的教案與教學流程表。"
+author: "紅焰教學"
+version: "1.0.0"
+
+inputs:
+  - name: "lesson_duration"
+    type: "string"
+    description: "例如：一節、兩節"
+    required: true
+  - name: "grade_and_subject"
+    type: "string"
+    description: "例如：八年級地理課、九年級理化課"
+    required: true
+  - name: "lesson_topic"
+    type: "string"
+    description: "例如：都市熱島、氣候變遷"
+    required: true
+
+knowledge_base_requirements:
+  - "教案示範檔案.docx"
+  - "數位與AI教學指引.pdf"
+  - "指引教案格式.docx"
+
+output_format: "markdown"
