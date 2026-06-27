@@ -1,7 +1,8 @@
 name: "紅焰教學 - 數位與AI融入備課助理"
-description: "協助教師依據特定的學科主題，自動生成符合《數位與AI教學指引》標準的教案與教學流程表。"
+description: "專為 AntiGravity 平台設計。協助教師依據特定的學科主題，自動生成符合《數位與AI教學指引》標準的教案與教學流程表。"
 author: "紅焰教學"
 version: "1.0.0"
+platform: "AntiGravity"
 
 inputs:
   - name: "lesson_duration"
